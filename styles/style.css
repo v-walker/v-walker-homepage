@@ -1,11 +1,11 @@
 html {
     font-size: 10 px;
-    font-family: 'Cormorant Garamond', serif;
     background-color: #f1f1f1;
 }
 
 h1 {
     font-size: 60px;
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
     margin: 0;
     padding: 20px 0;
@@ -13,15 +13,18 @@ h1 {
     text-shadow: 2px 2px 5px #779081;
 }
 
-p {
+h2 {
     font-size: 18px;
-    line-height: 1;
-    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    line-height: 1.5;
+    color: #525252;
+}
+
+p {
+    text-align: left;
 }
 
 li {
-    font-size: 18px;
-    line-height: 1;
     text-align: left
 }
 
@@ -62,6 +65,10 @@ img {
     width: 50%
 }
 
+.center-text {
+    text-align: center;
+}
+
 .link-text {
     display: block;
     margin-left: auto;
@@ -72,11 +79,32 @@ img {
     font-size: 15px;
 }
 
+.link {
+    color:#539671;
+    text-decoration: none;
+}
+
 .linked-img {
     width: 30px;
     box-shadow: 5px 5px 2px #779081;
 }
+
+.plain-img {
+    border-radius: 0%;
+}
+
+.small-img {
+    width: 100px;
+    box-shadow: 5px 5px 2px #779081;
+}
+
+.medium-img {
+    width: 200px;
+    box-shadow: 5px 5px 2px #779081;
+}
 .topnav {
+    font-size: 12px;
+    font-family: Arial;
     background-color:#858585;
     text-align: center;
     overflow: hidden;
