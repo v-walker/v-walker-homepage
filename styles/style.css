@@ -21,12 +21,9 @@ h2 {
     padding: 20px;
 }
 
-p {
+p, li {
     text-align: left;
-}
-
-li {
-    text-align: left
+    font-weight: normal;
 }
 
 body {
@@ -55,8 +52,7 @@ img {
     width: 400px;
     display: block;
     margin: 0 auto;
-    box-shadow: 10px 10px 5px #779081;
-    border-radius: 10%;
+    box-shadow: 1px 1px 5px #779081;
 }
 
 .center {
@@ -87,7 +83,8 @@ img {
 
 .linked-img {
     width: 30px;
-    box-shadow: 5px 5px 2px #779081;
+    box-shadow: 1px 1px 2px #779081;
+    border-radius: 5%
 }
 
 .plain-img {
@@ -96,12 +93,13 @@ img {
 
 .small-img {
     width: 100px;
-    box-shadow: 5px 5px 2px #779081;
+    box-shadow: 1px 1px 2px #779081;
+    border-radius: 10%
 }
 
 .medium-img {
     width: 200px;
-    box-shadow: 5px 5px 2px #779081;
+    box-shadow: 1px 1px 2px #779081;
 }
 .topnav {
     font-size: 12px;
@@ -130,4 +128,8 @@ img {
 .topnav a.active {
     background-color: #69a995;
     color: white;
+}
+
+.bold-font {
+    font-weight: bold;
 }
