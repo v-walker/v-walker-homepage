@@ -1,0 +1,23 @@
+{
+  "name": "first-test-site",
+  "version": "1.0.0",
+  "description": "A simple about-me site About me including short bio, interests, and contact information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-walker/v-walker-homepage.git"
+  },
+  "author": "Victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-walker/v-walker-homepage/issues"
+  },
+  "homepage": "https://github.com/v-walker/v-walker-homepage#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
